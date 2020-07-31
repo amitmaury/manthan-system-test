@@ -89,7 +89,7 @@ export default {
       this.updatedChartData = [];
       this.chartDataHeader = [];
       this.chartDataHeader.push(this.chartFirstHeader, metricsValue);
-      this.updatedData(metricsValue);
+      this.updatedData(metricsValue); 
     }
   }
 };
