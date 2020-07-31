@@ -1,5 +1,5 @@
 
-# manthan-system-test
+# vue-google-chart-example
 
 ## Project setup
 ```
