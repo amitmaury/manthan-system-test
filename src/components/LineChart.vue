@@ -71,7 +71,7 @@ export default {
         pass corresponding keys of metrics based on selected matrics
    */
     updatedData(metricsValue) {
-      this.reportData.records.map((res) => {
+      this.reportData.records.map(res => {
         let matricsResponse;
         if (metricsValue === "sales") matricsResponse = res.sales;
         else if (metricsValue === "orders") matricsResponse = res.orders;
